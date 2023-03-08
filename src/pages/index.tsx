@@ -10,7 +10,7 @@ export default function Home() {
       </Head>
 
       <main>
-      <h1 >Hey Hi, I am</h1>
+      <h1  className="text-3xl font-bold underline text-center" >Hey Hi, I am</h1>
       <a href="http://bscharan.com"> <img src="/Logo.png"></img></a>
       <h1> Welcome' to my digital space.</h1>
       <h2 ></h2>

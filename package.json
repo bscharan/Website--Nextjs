@@ -11,7 +11,6 @@
     "predeploy": "npm run build && npm run export",
     "deploy": "gh-pages -d out"
   },
-
   "dependencies": {
     "@types/node": "18.14.6",
     "@types/react": "18.0.28",
@@ -22,5 +21,10 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "4.9.5"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.7"
   }
 }
