@@ -26,17 +26,17 @@ const Quotes = () => {
         }, changeInterval);
 
         return () => clearInterval(interval);
-    }, []);
+    },);
     
       return (
         <>
-        <div className="bg-white shadow text-center m-4">
+        <div className="bg-white shadow text-center rounded-lg mx-4 sm:mx-auto sm:w-3/4">
 
             <div className="py-2"> {
             my2DArray[quoteIndex][2] !='' ? <a href={my2DArray[quoteIndex][2]}> {my2DArray[quoteIndex][0]}</a> 
             : <span>{my2DArray[quoteIndex][0]}</span>
             }</div>
-            <div className="text-[#c02c38] text-right mb-2 px-4"> -{my2DArray[quoteIndex][1]}</div>
+            <div className="text-[#c02c38] text-right mb-2 mr-auto w-4/5 px-4 "> -{my2DArray[quoteIndex][1]}</div>
         
         </div>
         </>
