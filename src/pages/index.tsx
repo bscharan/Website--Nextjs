@@ -17,10 +17,10 @@ export default function Home() {
             <h1 className="mt-5">Hey Hi, I am</h1>
             <div className="mx-auto w-1/2 sm:w-1/2" ><Logo /></div>
             <h1> Welcome to my digital space.</h1>
-            <h2 ></h2>
             <h3>
-                Well, There are lots of easter eggs hidden in this site for you to find.
-                <br />happy Exploring! 
+              I think myself as an Artist and this website is my Canvas.
+              <br />There are lots of easter eggs hidden in this site for you to find.
+              <br />happy Exploring! 
             </h3>
           
             <div className=" flex justify-center text-[#c02c38] my-4 gap-2">
