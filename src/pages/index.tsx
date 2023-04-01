@@ -4,16 +4,15 @@ import Image from 'next/image';
 import Logo from '../components/logo';
 
 
-
 export default function Home() {
   return (
     <div>
       <Head>
-        <title>SAI CHARAN BODDA</title>
+        <title>Sai Charan Bodda</title>
       </Head>
 
-      <main className="bg-slate-200 text-center py-3">
-        <section className="bg-slate-100 shadow-xl rounded-lg mx-2 sm:mx-6 md:mx-24 lg:mx-48 ">
+      <main className="bg-earthrise_image bg-cover min-h-screen text-center py-3">
+        <section className="bg-slate-100 text-slate-50 shadow-xl rounded-lg mx-2 sm:mx-6 md:mx-24 lg:mx-48 ">
           <div className="border-b-4 border-dotted border-[#c02c38] py-2 my-2">
             <h1 className="mt-5">Hey Hi, I am</h1>
             <div className="mx-auto w-1/2 sm:w-1/2" ><Logo /></div>
@@ -32,6 +31,7 @@ export default function Home() {
               <div className="mx-2"><Link href="./Sources/contactme.html">Contact</Link></div> */}
             </div>
           </div>
+
           <div className='border-b-4 border-dotted border-[#c02c38] py-2 my-2'>
             <div className=""><img src="/CHQuote.png" className='mx-auto shadow rounded' alt='unlicenced calvin and hobbes quote: There is not enough time to do all the nothing we want to do. - Bill Watterson '></img></div>
             <h3>
@@ -39,6 +39,7 @@ export default function Home() {
                   internet to have</a>. hoping one of you will work on them are make our internet little more beautiful <br />
             </h3>
           </div>
+
           <h3>
             you can report issues if you find any at <a className='text-[#c02c38]' href=""> bscharan1729@gmail.com</a>
           </h3>

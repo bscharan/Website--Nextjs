@@ -9,7 +9,14 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'earthrise_image' : "url('/apollo08_earthrise.jpg')",
+        'CHQuote_image' : "url('/CHQuote.png')",
+      }
+    },
   },
   plugins: [],
 }
+
+
