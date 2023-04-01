@@ -9,7 +9,6 @@ const Header = () => {
         <div className="mx-auto w-2/6 sm:w-1/6 max-w-md"><Logo/></div>
         <div className="invisible sm:visible sm:flex sm:gap-4 sm:my-auto sm:pr-2 ">
             <div className="hover:text-[#c02c38]"><a><Link href="/"><div > Home</div></Link></a></div>
-            <div className="hover:text-[#c02c38]"><a><Link href=""><div > Blog</div></Link></a></div>
         </div>
       </div>
     </header>
