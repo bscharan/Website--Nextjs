@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
 
       <main className="bg-earthrise_image bg-cover min-h-screen text-center py-3">
-        <section className="bg-slate-100 text-slate-50 shadow-xl rounded-lg mx-2 sm:mx-6 md:mx-24 lg:mx-48 ">
+        <section className="bg-slate-800 bg-opacity-30 text-slate-50 shadow-xl rounded-lg mx-2 sm:mx-6 md:mx-24 lg:mx-48 ">
           <div className="border-b-4 border-dotted border-[#c02c38] py-2 my-2">
             <h1 className="mt-5">Hey Hi, I am</h1>
             <div className="mx-auto w-1/2 sm:w-1/2" ><Logo /></div>
@@ -43,6 +43,9 @@ export default function Home() {
           <h3>
             you can report issues if you find any at <a className='text-[#c02c38]' href=""> bscharan1729@gmail.com</a>
           </h3>
+          <div className="container mx-auto pt-3 pb-1 m-1 text-center text-[#c02c38] ">
+            &copy; bscharan
+          </div>
         </section>
       </main>
     </div>

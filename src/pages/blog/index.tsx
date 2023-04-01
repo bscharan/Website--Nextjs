@@ -4,7 +4,7 @@ import Header from '../../components/header';
 
 export default function FirstPost() {
     return(
-    <div className=" bg-fuchsia-200">
+    <div className=" bg-black">
         <Header />
         <Quotes />
         <div className="grid sm:grid-cols-3 gap-4 mx-2 my-2"> 

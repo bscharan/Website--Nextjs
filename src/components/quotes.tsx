@@ -30,7 +30,7 @@ const Quotes = () => {
     
       return (
         <>
-        <div className="bg-white shadow text-center rounded-lg mx-4 sm:mx-auto sm:w-3/4">
+        <div className=" bg-blue-50 text-slate-800 shadow text-center rounded-lg mx-4 sm:mx-auto sm:w-3/4">
 
             <div className="py-2"> {
             my2DArray[quoteIndex][2] !='' ? <a href={my2DArray[quoteIndex][2]}> {my2DArray[quoteIndex][0]}</a> 
