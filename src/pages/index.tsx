@@ -13,8 +13,8 @@ export default function Home() {
         <title>Sai Charan Bodda</title>
       </Head>
 
-      <main className="bg-earthrise_image bg-cover min-h-screen text-center py-3">
-        <section className="bg-slate-800 bg-opacity-30 text-slate-50 shadow-xl rounded-lg mx-2 sm:mx-6 md:mx-24 lg:mx-48 ">
+      <main className="bg-white text-slate-600 italic bg-cover min-h-screen text-center py-3">
+        <section className="bg-white bg-opacity-30 text-slate-600 shadow-2xl rounded-lg mx-2 sm:mx-6 md:mx-24 lg:mx-48 ">
           <div className="border-b-4 border-dotted border-[#c02c38] py-2 my-2">
             <Intro></Intro>
             <div className=" flex justify-center text-[#c02c38] my-4 gap-2">
@@ -35,7 +35,7 @@ export default function Home() {
           </div>
 
           <h3>
-            you can report issues if you find any at <Mail></Mail>
+            you can report issues if any at <Mail></Mail>
           </h3>
           <div className="container mx-auto pt-3 pb-1 m-1 text-center text-[#c02c38] ">
             &copy; bscharan
@@ -57,14 +57,14 @@ function Intro() {
     <>
       <h1 className="mt-5">Hey Hi, I am</h1>
       <div className="mx-auto w-1/2 sm:w-1/2" ><Logo /></div>
+      <h1> Welcome to my digital space.</h1>
       <h3>
         I am an <span className='text-[#c02c38]'> Artist </span> and this website is my <button className="text-blue-600" onClick={toggleLines}>Canvas</button>.
       </h3>
       {showLines && (
         <>
-          <h1> Welcome to my digital space.</h1>
           <div>There are lots of easter eggs hidden in this site for you to find.
-            <br />happy Exploring!
+            <br />Happy Exploring!
           </div>
         </>
       )}
