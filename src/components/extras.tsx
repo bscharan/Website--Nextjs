@@ -34,16 +34,37 @@ export function YouTubeVideo({ url, title }: { url: string; title: string }) {
     )
 }
 
+export function ImageCard({ url, title }: { url: string; title: string }) {
+    return (
+        <div className=""><img src={url} className='mx-auto shadow rounded' alt={title}></img></div>
+    )
+}
 
-export function CardViewer({ child, notes, ...divProps }: {
-    child: React.ReactNode;
+
+export function CardViewer({ url, title, type, notes, ...divProps }: {
+    url: string;
+    title: string;
+    type: string;
     notes: string;
     [key: string]: any;
 }) {
+    var child;
+    switch (type) {
+        case 'youtube':
+            child = < YouTubeVideo url={url} title={title} />
+            break;
+        case 'image':
+            child = < ImageCard url={url} title={title} />
+            break;
+        default:
+            return (<></>);
+            break;
+    }
+
     return (
-        <div {...divProps}>
+        <div className=" shadow rounded-sm shadow-slate-500" {...divProps}>
             {child}
-            <span>{notes}</span>
+            <div className="text-center text-xs">{notes}</div>
         </div>
     );
 }
