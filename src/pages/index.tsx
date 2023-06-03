@@ -27,10 +27,10 @@ export default function Home() {
           </div>
 
           <div className='border-b-4 border-dotted border-[#c02c38] py-2 my-2'>
-            <div className=""><img src="/CHQuote.png" className='mx-auto shadow rounded' alt='unlicenced calvin and hobbes quote: There is not enough time to do all the nothing we want to do. - Bill Watterson '></img></div>
+            <div className=""><img src="/CHQuote.png" className='mx-auto shadow rounded' alt='Calvin and Hobbes quote: There is not enough time to do all the nothing we want to do. - Bill Watterson '></img></div>
             <h3>
-              There is no enough time to make all the things i want the <a className='text-[#c02c38]' href="https://docs.google.com/document/d/1dmSixLSognXm6lWpv1hTmiAVKb51kGFVK8T-rTPMTKM/edit?usp=sharing">
-                internet to have</a>. hoping one of you will work on them are make our internet little more beautiful <br />
+              There is no enough time to make all the things i want the <Link className='text-[#c02c38]' href='/myspace/others/future_todo'>
+                internet to have</Link>. hoping one of you will work on them are make our internet little more beautiful <br />
             </h3>
           </div>
 
