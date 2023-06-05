@@ -5,7 +5,7 @@ export default function App_SwiftPad() {
   return (
     <div>
       <Head>
-        <title>Swiftpad - Privacy Policy</title>
+        <title>Swiftpad - Notes and Bookmarks </title>
       </Head>
       <main className="bg-white text-slate-600 italic bg-cover min-h-screen py-3">
         <section className="bg-white bg-opacity-30 text-slate-600 shadow-2xl rounded-lg mx-2 sm:mx-6 md:mx-24 lg:mx-48 ">
