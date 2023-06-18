@@ -19,10 +19,6 @@ export default function Home() {
             <Intro></Intro>
             <div className=" flex justify-center text-[#c02c38] my-4 gap-2">
               <div className="mx-2 hover:text-2xl"><Link href='/myspace'>My Space </Link></div>
-              {/* <div className="mx-2"><Link href="/blog/blog001">Resume</Link></div>
-              <div className="mx-2"><Link href="./Sources/projects.html">Works</Link></div> 
-              <div className="mx-2"><Link href="./Sources/about.html">About</Link></div> 
-              <div className="mx-2"><Link href="./Sources/contactme.html">Contact</Link></div> */}
             </div>
           </div>
 
