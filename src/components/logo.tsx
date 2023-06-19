@@ -1,10 +1,17 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const Logo = () => {
     return (
-        <a><Link href="/"> <img src="/Logo.png" alt='BSCHARAN LOGO'/></Link></a>
+        <Link href="/" >
+            
+            <Image
+                src="/Logo.png"
+                width={500}
+                height={500}
+                alt="BSCHARAN LOGO" />
+        </Link>
     );
-  
-  };
-  
-  export default Logo;
+};
+
+export default Logo;

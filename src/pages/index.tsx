@@ -23,7 +23,14 @@ export default function Home() {
           </div>
 
           <div className='border-b-4 border-dotted border-[#c02c38] py-2 my-2'>
-            <div className=""><img src="/CHQuote.png" className='mx-auto shadow rounded' alt='Calvin and Hobbes quote: There is not enough time to do all the nothing we want to do. - Bill Watterson '></img></div>
+            <div className="">
+              <Image className='mx-auto shadow rounded'
+                src="/CHQuote.png"
+                width={500}
+                height={500}
+                alt="Calvin and Hobbes quote: There is not enough time to do all the nothing we want to do. - Bill Watterson r"
+              />
+            </div>
             <h3>
               There is no enough time to make all the things i want the <Link className='text-[#c02c38]' href='/myspace/others/future_todo'>
                 internet to have</Link>. hoping one of you will work on them are make our internet little more beautiful <br />
