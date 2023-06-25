@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Image from 'next/image';
 import Logo from '@/components/logo';
 
 export default function FirstPost() {
@@ -12,7 +13,14 @@ export default function FirstPost() {
                     <div className="mx-auto w-1/4" ><Logo /></div>
 
                     <div className='border-b-4 border-t-2 border-dotted border-[#c02c38] py-2 my-2'>
-                        <div className=""><img src="/SwiftPad_Banner.png" className='mx-auto shadow rounded' alt='SwiftPad Android Application banner '></img></div>
+                        <div className="">
+                            <Image className='mx-auto shadow rounded'
+                                src="/SwiftPad_Banner.png"
+                                width={500}
+                                height={500}
+                                alt="SwiftPad Android Application banner"
+                            />
+                        </div>
                     </div>
 
                     <PrivacyPolicy />

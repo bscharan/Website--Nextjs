@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Image from 'next/image';
 
 export function Mail() {
     const [showText, setShowText] = useState(false);
@@ -36,7 +37,14 @@ export function YouTubeVideo({ url, title }: { url: string; title: string }) {
 
 export function ImageCard({ url, title }: { url: string; title: string }) {
     return (
-        <div className=""><img src={url} className='mx-auto shadow rounded' alt={title}></img></div>
+        <div className="">
+            <Image className='mx-auto shadow rounded'
+                src={url}
+                width={500}
+                height={500}
+                alt={title}
+            />
+        </div>
     )
 }
 

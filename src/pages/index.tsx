@@ -28,7 +28,7 @@ export default function Home() {
                 src="/CHQuote.png"
                 width={500}
                 height={500}
-                alt="Calvin and Hobbes quote: There is not enough time to do all the nothing we want to do. - Bill Watterson r"
+                alt="Calvin and Hobbes quote: There is not enough time to do all the nothing we want to do. - Bill Watterson"
               />
             </div>
             <h3>
