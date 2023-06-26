@@ -50,9 +50,15 @@ export default function Home() {
 }
 
 function Intro() {
+  const [showText, setShowText] = useState(false);
+
+  const toggleText = () => {
+    setShowText(true);
+  };
+
   const [showLines, setShowLines] = useState(false);
 
-  const toggleLines = () => {
+  const showHiddenLines = () => {
     setShowLines(!showLines);
   };
 
@@ -62,7 +68,10 @@ function Intro() {
       <div className="mx-auto w-1/2 sm:w-1/2" ><Logo /></div>
       <h1> Welcome to my digital space.</h1>
       <h3>
-        I am an <span className='text-[#c02c38]'> Artist </span> and this website is my <button className="text-blue-600" onClick={toggleLines}>Canvas</button>.
+        I am an 
+        {showText ? <span className='text-[#c02c38]'> Engineer </span> : (
+          <button className='text-blue-600' onClick={toggleText}> &nbsp;Artist </button>
+        )} and this website is my <button className="text-blue-600" onClick={showHiddenLines}>Canvas</button>.
       </h3>
       {showLines && (
         <>

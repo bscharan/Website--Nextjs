@@ -22,7 +22,7 @@ export default function Projects_Index() {
                                 src="/SwiftPad_Icon.png"
                                 width={250}
                                 height={250}
-                                alt="EarthRise"
+                                alt="SwiftPad App Icon"
                             />
                             <p className=' text-center text-[#c02c38]'> SwiftPad </p>
                         </div>
