@@ -19,7 +19,7 @@ export default function Projects_Index() {
                         <div >
                             <Image
                                 className='mx-auto shadow rounded'
-                                src="/SwiftPad_Icon.png"
+                                src="/SwiftPad/SwiftPad_Icon.png"
                                 width={250}
                                 height={250}
                                 alt="SwiftPad App Icon"
