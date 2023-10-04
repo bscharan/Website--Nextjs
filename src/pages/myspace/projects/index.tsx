@@ -16,16 +16,7 @@ export default function Projects_Index() {
 
                 <div className=" py-2">
                     <Link href="/myspace/projects/swiftpad" >
-                        <div >
-                            <Image
-                                className='mx-auto shadow rounded'
-                                src="/SwiftPad/SwiftPad_Icon.png"
-                                width={250}
-                                height={250}
-                                alt="SwiftPad App Icon"
-                            />
-                            <p className=' text-center text-[#c02c38]'> SwiftPad </p>
-                        </div>
+
                     </Link>
 
                 </div>
@@ -35,4 +26,56 @@ export default function Projects_Index() {
         </div>
     );
 }
+
+function SwiftPad() {
+    return (
+        <Link href="/myspace/projects/swiftpad" >
+            <div >
+                <Image
+                    className='mx-auto shadow rounded'
+                    src="/SwiftPad/SwiftPad_Icon.png"
+                    width={250}
+                    height={250}
+                    alt="SwiftPad App Icon"
+                />
+                <p className=' text-center text-[#c02c38]'> SwiftPad </p>
+            </div>
+        </Link>
+    )
+}
+
+function WidgetDictionary() {
+    return (
+        <Link href="/myspace/projects/swiftpad" >
+            <div >
+                <Image
+                    className='mx-auto shadow rounded'
+                    src="/SwiftPad/SwiftPad_Icon.png"
+                    width={250}
+                    height={250}
+                    alt="SwiftPad App Icon"
+                />
+                <p className=' text-center text-[#c02c38]'> WidgetDictionary </p>
+            </div>
+        </Link>
+    )
+}
+
+function Automatic_Rhythm_generation() {
+    return (
+        <Link href="/myspace/projects/swiftpad" >
+            <div >
+                <Image
+                    className='mx-auto shadow rounded'
+                    src="/SwiftPad/SwiftPad_Icon.png"
+                    width={250}
+                    height={250}
+                    alt="SwiftPad App Icon"
+                />
+                <p className=' text-center text-[#c02c38]'> Automatic_Rhythm_generation </p>
+            </div>
+        </Link>
+    )
+}
+
 
