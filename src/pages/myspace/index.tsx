@@ -37,7 +37,7 @@ class NextJsCarousel extends Component {
                     <br />
                     <Image
                         className='mx-auto shadow rounded px-5 py-5'
-                        src="/apollo08_earthrise.jpg"
+                        src="/extra/apollo08_earthrise.jpg"
                         width={500}
                         height={500}
                         alt="EarthRise"
@@ -48,7 +48,7 @@ class NextJsCarousel extends Component {
                     <br />
                     <Image
                         className='mx-auto shadow rounded'
-                        src="/26a_big-vlt.jpg"
+                        src="/extra/26a_big-vlt.jpg"
                         width={500}
                         height={500}
                         alt="2M1207"
@@ -59,7 +59,7 @@ class NextJsCarousel extends Component {
                     <br />
                     <Image
                         className='mx-auto shadow rounded'
-                        src="/PlutoAndCharon.png"
+                        src="/extra/PlutoAndCharon.png"
                         width={500}
                         height={500}
                         alt="PlutoAndCharon"
@@ -70,7 +70,7 @@ class NextJsCarousel extends Component {
                     <br />
                     <Image
                         className='mx-auto shadow rounded'
-                        src="/JupiterAndIo.png"
+                        src="/extra/JupiterAndIo.png"
                         width={500}
                         height={500}
                         alt="JupiterAndIo"

@@ -15,7 +15,7 @@ export default function Future_ToDo() {
                     <div className='border-b-4 border-t-2 border-dotted border-[#c02c38] py-2 my-2'>
                         <div className="">
                             <Image className='mx-auto shadow rounded'
-                                src="/CHQuote.png"
+                                src="/extra/CHQuote.png"
                                 width={500}
                                 height={500}
                                 alt="Calvin and Hobbes quote: There is not enough time to do all the nothing we want to do. - Bill Watterson"

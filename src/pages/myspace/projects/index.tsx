@@ -15,9 +15,9 @@ export default function Projects_Index() {
                 </h3>
 
                 <div className=" py-2">
-                    <Link href="/myspace/projects/swiftpad" >
-
-                    </Link>
+                    <SwiftPad />
+                    <WidgetDictionary />
+                    <Automatic_Rhythm_generation />
 
                 </div>
             </section>
