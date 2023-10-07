@@ -18,18 +18,6 @@ function AboutPage() {
                 {/* TODO Insert my github Image */}
                 <div> I am an artist and internet is my canvas</div>
 
-                {/* TODO A Little Intro About Me */}
-                <div>
-                    <h3>Experience</h3>
-                    <div>Senior Member of Techinal Staff - Oracle</div>
-                    <div>Software Engineer - Samsung R&D</div>
-                </div>
-                {/* TODO Education / Experience */}
-                <div>
-                    <h3>Education</h3>
-                    <div>B.Tech Electronics and Communication Engineering</div>
-                    <div>Indian Institute of Technology Guwahati </div>
-                </div>
                 {/* QUOTES */}
             </div>
             <Footer />
