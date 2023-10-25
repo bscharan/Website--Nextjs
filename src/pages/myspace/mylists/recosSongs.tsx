@@ -13,7 +13,7 @@ export default function Songs_Recos() {
                     <Songs_RecosList />
                     <MusicGrid />
 
-                    <div className="container mx-auto pt-3 pb-1 m-1 text-center text-[#c02c38] ">
+                    <div className="container mx-auto pt-3 pb-1 m-1 text-center text-ts_red ">
                         &copy; bscharan
                     </div>
                 </section>

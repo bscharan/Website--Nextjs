@@ -12,7 +12,7 @@ export default function Future_ToDo() {
                 <section className="bg-white bg-opacity-30 text-slate-600 shadow-2xl rounded-lg mx-2 sm:mx-6 md:mx-24 lg:mx-48 ">
                     <div className="mx-auto w-1/4" ><Logo /></div>
 
-                    <div className='border-b-4 border-t-2 border-dotted border-[#c02c38] py-2 my-2'>
+                    <div className='border-b-4 border-t-2 border-dotted border-ts_red py-2 my-2'>
                         <div className="">
                             <Image className='mx-auto shadow rounded'
                                 src="/extra/CHQuote.png"
@@ -24,7 +24,7 @@ export default function Future_ToDo() {
                     </div>
                     <Content />
 
-                    <div className="container mx-auto pt-3 pb-1 m-1 text-center text-[#c02c38] ">
+                    <div className="container mx-auto pt-3 pb-1 m-1 text-center text-ts_red ">
                         &copy; bscharan
                     </div>
                 </section>
@@ -41,7 +41,7 @@ function Content() {
             <p className='text-center text-xl font-bold'>Here are the list of things i want internet to have one day.<br />
             </p>
 
-            <strong className='text-[#c02c38]'> A personal DNS server.</strong>
+            <strong className='text-ts_red'> A personal DNS server.</strong>
             <p className='px-4 mx-4' >
                 <ul className='list-disc'>
                     <li>A personal database consisting dnses.</li>
@@ -50,7 +50,7 @@ function Content() {
                 </ul>
             </p>
 
-            <strong className='text-[#c02c38]'>A Billion dots</strong>
+            <strong className='text-ts_red'>A Billion dots</strong>
             <p className='px-4 mx-4' >
                 <ul className='list-disc'>
 
@@ -58,7 +58,7 @@ function Content() {
                 </ul>
 
             </p>
-            <strong className='text-[#c02c38]'>
+            <strong className='text-ts_red'>
                 Cloud Collection</strong>
             <p className='px-4 mx-4' >
                 <ul className='list-disc'>
@@ -68,7 +68,7 @@ function Content() {
 
             </p>
 
-            <strong className='text-[#c02c38]'>Sticky Notes- smartphone.</strong>
+            <strong className='text-ts_red'>Sticky Notes- smartphone.</strong>
             <p className='px-4 mx-4' >
                 <ul className='list-disc'>
 
@@ -78,31 +78,31 @@ function Content() {
 
             </p>
 
-            <strong className='text-[#c02c38]'>Fourier circles logo.</strong>
+            <strong className='text-ts_red'>Fourier circles logo.</strong>
             <p className='px-4 mx-4' >
                 <ul className='list-disc'>
 
                     <li>Want any name shown in as a video of moving Fourier circles.</li>
                     <li>Similar to the way Fourier face is shown in video by 3blue1brown. In his video of fourier series animation</li>
-                    <li><a className='text-[#c02c38]' href=" https://youtu.be/r6sGWTCMz2k">Reference video by 3Blue1Brown </a></li>
+                    <li><a className='text-ts_red' href=" https://youtu.be/r6sGWTCMz2k">Reference video by 3Blue1Brown </a></li>
                     <li>Status: not yet started 😢</li >
                 </ul>
 
             </p>
 
-            <strong className='text-[#c02c38]'>Ideajournal(SwiftPad)</strong>
+            <strong className='text-ts_red'>Ideajournal(SwiftPad)</strong>
             <p className='px-4 mx-4' >
                 <ul className='list-disc'>
 
                     <li> An easy app with a companion widget to store all your ideas or things you want to save fast.</li>
                     <li> No need to open application and should be easy( minimum number of clicks to save)</li>
                     <li>Status: done.</li >
-                    <li> <a className='text-[#c02c38]' href="https://play.google.com/store/apps/details?id=com.bscharan.myideajournal">Download SwiftPad on Google Play Store</a></li>
+                    <li> <a className='text-ts_red' href="https://play.google.com/store/apps/details?id=com.bscharan.myideajournal">Download SwiftPad on Google Play Store</a></li>
                 </ul>
 
             </p>
 
-            <strong className='text-[#c02c38]'>Widget dictionary</strong>
+            <strong className='text-ts_red'>Widget dictionary</strong>
             <p className='px-4 mx-4' >
                 <ul className='list-disc'>
                     <li>An easy app with a direct home screen widget to search words directly from the widget.</li>

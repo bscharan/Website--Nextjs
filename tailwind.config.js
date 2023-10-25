@@ -13,6 +13,9 @@ module.exports = {
       backgroundImage: {
         'earthrise_image' : "url('/apollo08_earthrise.jpg')",
         'CHQuote_image' : "url('/CHQuote.png')",
+      },
+      colors: {
+        ts_red: "#c02c38"
       }
     },
   },

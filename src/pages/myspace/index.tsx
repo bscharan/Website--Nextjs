@@ -33,7 +33,7 @@ class NextJsCarousel extends Component {
         return (
             <Carousel >
                 <div>
-                    <Link target="_blank" className='text-[#c02c38]' href='https://en.wikipedia.org/wiki/Earthrise'> EarthRise</Link>
+                    <Link target="_blank" className='text-ts_red' href='https://en.wikipedia.org/wiki/Earthrise'> EarthRise</Link>
                     <br />
                     <Image
                         className='mx-auto shadow rounded px-5 py-5'
@@ -44,7 +44,7 @@ class NextJsCarousel extends Component {
                     />
                 </div>
                 <div>
-                    <Link target="_blank" className='text-[#c02c38]' href='https://www.eso.org/public/images/26a_big-vlt/'> 2M1207 (Very Large Telescope)</Link>
+                    <Link target="_blank" className='text-ts_red' href='https://www.eso.org/public/images/26a_big-vlt/'> 2M1207 (Very Large Telescope)</Link>
                     <br />
                     <Image
                         className='mx-auto shadow rounded'
@@ -55,7 +55,7 @@ class NextJsCarousel extends Component {
                     />
                 </div>
                 <div>
-                    <Link target="_blank" className='text-[#c02c38]' href='https://webbtelescope.org/contents/media/images/2020/54/4766-Image'> Pluto and Charon (New Horizons)</Link>
+                    <Link target="_blank" className='text-ts_red' href='https://webbtelescope.org/contents/media/images/2020/54/4766-Image'> Pluto and Charon (New Horizons)</Link>
                     <br />
                     <Image
                         className='mx-auto shadow rounded'
@@ -66,7 +66,7 @@ class NextJsCarousel extends Component {
                     />
                 </div>
                 <div>
-                    <Link target="_blank" className='text-[#c02c38]' href='https://webbtelescope.org/contents/media/images/2020/38/4718-Image'> Jupiter and Io (Cassini)</Link>
+                    <Link target="_blank" className='text-ts_red' href='https://webbtelescope.org/contents/media/images/2020/38/4718-Image'> Jupiter and Io (Cassini)</Link>
                     <br />
                     <Image
                         className='mx-auto shadow rounded'

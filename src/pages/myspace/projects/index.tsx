@@ -38,7 +38,7 @@ function SwiftPad() {
                     height={250}
                     alt="SwiftPad App Icon"
                 />
-                <p className=' text-center text-[#c02c38]'> SwiftPad </p>
+                <p className=' text-center text-ts_red'> SwiftPad </p>
             </div>
         </Link>
     )
@@ -55,7 +55,7 @@ function WidgetDictionary() {
                     height={250}
                     alt="SwiftPad App Icon"
                 />
-                <p className=' text-center text-[#c02c38]'> WidgetDictionary </p>
+                <p className=' text-center text-ts_red'> WidgetDictionary </p>
             </div>
         </Link>
     )
@@ -72,7 +72,7 @@ function Automatic_Rhythm_generation() {
                     height={250}
                     alt="SwiftPad App Icon"
                 />
-                <p className=' text-center text-[#c02c38]'> Automatic_Rhythm_generation </p>
+                <p className=' text-center text-ts_red'> Automatic_Rhythm_generation </p>
             </div>
         </Link>
     )

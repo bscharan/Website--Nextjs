@@ -13,7 +13,7 @@ export default function App_WidgetDictionary() {
           <div className="mx-auto w-1/4" ><Logo /></div>
 
           {/* TODO */}
-          <div className='border-b-4 border-t-2 border-dotted border-[#c02c38] py-2 my-2'>
+          <div className='border-b-4 border-t-2 border-dotted border-ts_red py-2 my-2'>
             <div className="">
               <Image className='mx-auto shadow rounded'
                 src="/SwiftPad/SwiftPad_Banner.png"
@@ -25,7 +25,7 @@ export default function App_WidgetDictionary() {
           </div>
           <WidgetDictionary />
 
-          <div className="container mx-auto pt-3 pb-1 m-1 text-center text-[#c02c38] ">
+          <div className="container mx-auto pt-3 pb-1 m-1 text-center text-ts_red ">
             &copy; bscharan
           </div>
         </section>

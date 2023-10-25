@@ -13,7 +13,7 @@ export default function App_SwiftPad() {
         <section className="bg-white bg-opacity-30 text-slate-600 shadow-2xl rounded-lg mx-2 sm:mx-6 md:mx-24 lg:mx-48 ">
           <div className="mx-auto w-1/4" ><Logo /></div>
 
-          <div className='border-b-4 border-t-2 border-dotted border-[#c02c38] py-2 my-2'>
+          <div className='border-b-4 border-t-2 border-dotted border-ts_red py-2 my-2'>
 
             <Image className='mx-auto shadow rounded'
               src="/SwiftPad/SwiftPad_Banner.png"
@@ -24,7 +24,7 @@ export default function App_SwiftPad() {
           </div>
           <SwiftPad />
 
-          <div className="container mx-auto pt-3 pb-1 m-1 text-center text-[#c02c38] ">
+          <div className="container mx-auto pt-3 pb-1 m-1 text-center text-ts_red ">
             &copy; bscharan
           </div>
         </section>
@@ -37,12 +37,12 @@ export default function App_SwiftPad() {
 function SwiftPad() {
   return (
     < div className='p-4 m-4'>
-      < strong className='text-[#c02c38]' >Swiftpad </ strong>
+      < strong className='text-ts_red' >Swiftpad </ strong>
       <p className='px-4 mx-4'>
         Swiftpad is developed to be made as a single journal app to store all your ideas, and thoughts, segregate your bookmarks, and everything that you find interesting. These ideas and thoughts can be in form of images, text, or audio notes. With an added Eisenhower decision matrix in form of TODO, it can enhance your productivity.
       </p>
       <br />
-      <strong className='text-[#c02c38]' >**Features**</strong>
+      <strong className='text-ts_red' >**Features**</strong>
       <p className='px-4 mx-4' >
         <ul className='list-disc px-4 mx-4'>
           <li>Store Text, Images and Audio</li>
@@ -56,7 +56,7 @@ function SwiftPad() {
         </ul>
       </p>
 
-      <strong className='text-[#c02c38]' >**Look Out for**</strong>
+      <strong className='text-ts_red' >**Look Out for**</strong>
       <p className='px-4 mx-4' >
         <ul className='list-disc px-4 mx-4'>
           <li>  Accessibility Support for Vision deficiency</li>
@@ -75,11 +75,11 @@ function SwiftPad() {
         if you want to navigate your thoughts through time, know it's covered too. we provide amazing calendar navigation. a secure vault with uses inbuilt device authentication (including fingerprint) to store/hide your ideas from peeping eyes.
       </p>
       <br />
-      <strong className='text-[#c02c38]' >DownLoad From Google Play Store :
+      <strong className='text-ts_red' >DownLoad From Google Play Store :
         <Link className="text-blue-600" href="https://play.google.com/store/apps/details?id=com.bscharan.myideajournal" >  here </Link>
       </strong>
       <br />
-      <strong className='text-[#c02c38]' >SwiftPad Privacy Policy :
+      <strong className='text-ts_red' >SwiftPad Privacy Policy :
         <Link className="text-blue-600" href="/Privacy_Policy/swiftpad" >  here </Link>
       </strong>
 

@@ -10,7 +10,7 @@ export function Mail() {
 
 
     return (
-        <span className='text-[#c02c38]'> bscharan
+        <span className='text-ts_red'> bscharan
             {showText ? 1729 : (
                 <button className="text-blue-500 underline" onClick={handleClick}>
                     click here to show
