@@ -1,0 +1,9 @@
+to run the project 
+
+install npm
+
+install next, react, react-dom
+npm install next react react-dom
+
+to run the project
+npm run dev
